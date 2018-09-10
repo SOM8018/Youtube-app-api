@@ -1,28 +1,30 @@
 @mixin font-base {
-	
+	padding: 0;
+	margin: 0;
+	line-height: 1.3;
+	font-weight: 600;
 }
+
 h4 {
-	padding: 0;
-	margin: 0;
-	line-height: 1.3;
-	font-weight: 600;
+	@include font-base;
 }
+
 p {
-	padding: 0;
-	margin: 0;
-	line-height: 1.3;
-	font-weight: 600;
+	@include font-base;
 	color: grey;
 	font-size: 0.7rem;
 }
+
 body {
 	background-color: #eee;
 }
+
 .container {
 	width: 560px;
 	background-color: #fff;
 	margin: 0 auto;
 }
+
 header,
 section {
 	position: fixed;
@@ -30,16 +32,20 @@ section {
 	width: 560px;
 	background-color: #fff;
 }
+
 section {
 	top: 50px;
 }
+
 .logo {
 	width: 120px;
 	padding: 10px;
 }
+
 main {
 	padding: 370px 18px 10px;
 }
+
 article {
 	display: flex;
 	align-items: center;
@@ -47,15 +53,18 @@ article {
 	border: 2px solid white;
 	border-radius: 8px;
 	margin: 0 auto;
+
 }
 article:hover
 {
     border: 2px solid #ff9999;
 }
+
 .thumb {
 	height: 70px;
 	border-radius: 4px;
 }
+
 .details {
 	padding: 8px 22px;
 }
