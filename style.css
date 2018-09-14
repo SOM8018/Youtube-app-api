@@ -24,6 +24,10 @@ body {
 	background-color: #fff;
 	margin: 0 auto;
 }
+header{
+
+   top: -19px;
+}
 
 header,
 section {
@@ -41,23 +45,27 @@ section {
 	width: 120px;
 	padding: 10px;
 }
-
+section {
+	background-color: rgba(245, 3, 3, 0.466);
+}
 main {
-	padding: 370px 18px 10px;
+	padding: 340px 18px 10px;
 }
 
 article {
 	display: flex;
 	align-items: center;
-	padding: 8px 12px;
+	padding: 1px 12px;
 	border: 2px solid white;
 	border-radius: 8px;
 	margin: 0 auto;
 
+
 }
 article:hover
 {
-    border: 2px solid #ff9999;
+	border: 2px solid #ff9999;
+	background-color: darkgray;
 }
 
 .thumb {
@@ -66,5 +74,5 @@ article:hover
 }
 
 .details {
-	padding: 8px 22px;
+	padding: 1px 12px;
 }
